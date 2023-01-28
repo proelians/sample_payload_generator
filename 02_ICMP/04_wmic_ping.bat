@@ -1,0 +1,1 @@
+wmic process call create "ping LOCAL_IP"

